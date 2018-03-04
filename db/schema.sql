@@ -4,10 +4,9 @@ CREATE DATABASE fitness_db;
 
 USE fitness_db;
 
-CREATE TABLE workout(
-	id INTEGER(11) AUTO_INCREMENT NOT NULL,
+CREATE TABLE workout (
+	id INT NOT NULL AUTO_INCREMENT,
 	exercise_name VARCHAR(30) NOT NULL,
-	completed BOOLEAN NOT NULL
+	exercise_completed BOOLEAN NOT NULL,
 	PRIMARY KEY (id)
 );
-
