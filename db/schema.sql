@@ -8,5 +8,6 @@ CREATE TABLE workout(
 	id INTEGER(11) AUTO_INCREMENT NOT NULL,
 	exercise_name VARCHAR(30) NOT NULL,
 	completed BOOLEAN NOT NULL
+	PRIMARY KEY (id)
 );
 
